@@ -1,3 +1,26 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+}
+
+.intro-text {
+  flex: 1 1 60%;
+}
+
+.profile-img {
+  flex: 1 1 160px;
+  max-width: 160px;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   max-width: 900px;
