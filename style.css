@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 2em;
 }
 
@@ -10,13 +10,13 @@
 }
 
 .profile-img {
-  flex: 1 1 160px;
-  max-width: 160px;
+  flex: 1 1 180px;
+  max-width: 180px;
 }
 
 .profile-img img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 8px; /* 👈 예쁜 네모 */
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
