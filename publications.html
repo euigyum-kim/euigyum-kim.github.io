@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Selected Publications | David</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleAbstract(id) {
+      var elem = document.getElementById(id);
+      if (elem.style.display === 'block') {
+        elem.style.display = 'none';
+      } else {
+        elem.style.display = 'block';
+      }
+    }
+  </script>
+</head>
+<body>
+
+<h1>Selected Publications</h1>
+
+<div class="publication">
+  <div class="pub-title">
+    <a href="#">Leveraging Large Language Model for Automatic Translation of Educational Content: Exploring the Effectiveness of Curriculum-Aware Prompt Engineering</a>
+  </div>
+  <div class="author"><b>Euigyum Kim</b> & Hyo Jeong Shin</div>
+  <div class="journal"><em>Korean Journal of Educational Research</em> 63(2), 2025</div>
+  <div class="pub-links">
+    <a href="javascript:void(0);" onclick="toggleAbstract('abs1')">ABS</a>
+    <a href="#">PAPER</a>
+  </div>
+  <div class="abstract" id="abs1">
+    <p>Despite the globalization of educational content, language remains a significant barrier. When translating educational content, multilingual translation has become crucial to meet this challenge, with an emphasis on incorporating the cultural context of the target country and the educational context of the learners. However, existing machine translation systems often fail to adequately account for these contextual factors. This study explores the potential of the Large Language Model(LLM) to improve the translation of assessment items through In-context Learning. Two prompt engineering strategies are compared: the ‘assessment-aware prompt’, which includes only the specifications of the assessment, and the ‘curriculum-aware prompt’, which includes the educational and cultural context of the target country in addition to the assessment specifications. From the comparison of linguistic features and the expert reviews, we found that the curriculum-aware translation produced more valid and feasible results, highlighting the effectiveness of LLM-based automatic translation methods that integrate curriculum context.
+</p>
+  </div>
+</div>
+
+</body>
+</html>
