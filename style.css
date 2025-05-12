@@ -93,3 +93,24 @@ nav a {
   border: 1px dashed #2A52BE;
   background-color: #f9f9ff;
 }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+header nav a {
+  margin-left: 1.5em;
+  color: #2A52BE;
+  font-weight: bold;
+  text-decoration: none;
+}
