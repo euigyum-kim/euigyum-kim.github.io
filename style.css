@@ -16,13 +16,14 @@
 
 .profile-img img {
   width: 100%;
-  border-radius: 8px; /* 👈 예쁜 네모 */
+  border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   max-width: 900px;
   margin: auto;
   padding: 2em;
@@ -90,7 +91,7 @@ nav a {
   display: none;
   margin-top: 0.5em;
   padding: 1em;
-  border: 1px dashed #2A52BE;
+  border: 1px solid #434C60;
   background-color: #f9f9ff;
 }
 
