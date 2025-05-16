@@ -28,7 +28,7 @@
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
   font-weight: 300;
   max-width: 900px;
   margin: auto;
