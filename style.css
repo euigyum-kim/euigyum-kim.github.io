@@ -38,7 +38,7 @@ body {
 }
 
 a {
-  color: #00498c;
+  color: #002387;
   font-weight: bold;
   text-decoration: none;
 }
@@ -87,10 +87,10 @@ nav a {
   margin-right: 0.5em;
   margin-top: 0.3em;
   padding: 0.2em 0.4em;
-  border: 1px solid #00498c;
+  border: 1px solid #002387;
   border-radius: 5px;
   font-size: 0.9em;
-  color: #00498c;
+  color: #002387;
 }
 
 .abstract {
@@ -117,7 +117,7 @@ header {
 
 header nav a {
   margin-left: 1em;
-  color: #00498c;
+  color: #002387;
   font-weight: bold;
   text-decoration: none;
 }
