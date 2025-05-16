@@ -1,8 +1,8 @@
 .intro {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 2em;
   margin-top: 2em;
 }
@@ -21,7 +21,7 @@
 
 .profile-img img {
   width: 100%;
-  border-radius: 8px; /* 유지: 원형 아님 */
+  border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
