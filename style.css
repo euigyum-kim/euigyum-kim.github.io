@@ -1,17 +1,12 @@
 .intro {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2em;
-}
-
-.intro-text {
-  flex: 1 1 60%;
+  display: block;
+  padding-bottom: 2em;
 }
 
 .profile-img {
-  flex: 1 1 180px;
   max-width: 180px;
+  margin: 2em auto 0 auto;
+  text-align: center;
 }
 
 .profile-img img {
