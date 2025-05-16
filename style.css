@@ -34,11 +34,11 @@ body {
   margin: auto;
   padding: 2em;
   line-height: 1.6;
-  color: #000;
+  color: #333333;
 }
 
 a {
-  color: #2A52BE;
+  color: #00498c;
   font-weight: bold;
   text-decoration: none;
 }
@@ -59,7 +59,7 @@ h2 {
 }
 
 nav a {
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 .news-table {
@@ -87,10 +87,10 @@ nav a {
   margin-right: 0.5em;
   margin-top: 0.3em;
   padding: 0.2em 0.4em;
-  border: 1px solid #2A52BE;
+  border: 1px solid #00498c;
   border-radius: 5px;
   font-size: 0.9em;
-  color: #2A52BE;
+  color: #00498c;
 }
 
 .abstract {
@@ -116,8 +116,8 @@ header {
 }
 
 header nav a {
-  margin-left: 1.5em;
-  color: #2A52BE;
+  margin-left: 1em;
+  color: #00498c;
   font-weight: bold;
   text-decoration: none;
 }
