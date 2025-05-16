@@ -1,20 +1,31 @@
 .intro {
-  display: block;
-  padding-bottom: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.intro-text {
+  flex: 1 1 60%;
+  min-width: 260px;
 }
 
 .profile-img {
+  flex: 0 0 180px;
   max-width: 180px;
-  margin: 2em auto 0 auto;
   text-align: center;
+  margin-top: 0;
 }
 
 .profile-img img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 8px; /* 유지: 원형 아님 */
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 body {
   font-family: 'Open Sans', sans-serif;
